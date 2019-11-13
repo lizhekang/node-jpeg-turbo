@@ -19,6 +19,7 @@
     "prebuilt-bindings": "^1.0.3"
   },
   "scripts": {
+    "preinstall": "git submodule init & git submodule update",
     "install": "node ./prebuilt-bindings install",
     "prebuilt-bindings": "node ./prebuilt-bindings"
   }
