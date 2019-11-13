@@ -1,6 +1,6 @@
 {
   "name": "xjpeg-turbo",
-  "version": "0.4.3",
+  "version": "0.4.7",
   "description": "Limited libjpeg-turbo bindings for Node.js.",
   "keywords": [
     "jpeg",
@@ -15,7 +15,7 @@
   "main": "./index",
   "dependencies": {
     "bindings": "^1.2.1",
-    "nan": "^2.4.0",
+    "nan": "^2.14.0",
     "prebuilt-bindings": "^1.0.3"
   },
   "scripts": {
