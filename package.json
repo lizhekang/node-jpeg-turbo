@@ -1,6 +1,6 @@
 {
-  "name": "jpeg-turbo",
-  "version": "0.4.0",
+  "name": "xjpeg-turbo",
+  "version": "0.4.3",
   "description": "Limited libjpeg-turbo bindings for Node.js.",
   "keywords": [
     "jpeg",
@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sorccu/node-jpeg-turbo.git"
+    "url": "https://github.com/lizhekang/node-jpeg-turbo.git"
   },
   "main": "./index",
   "dependencies": {
@@ -19,7 +19,6 @@
     "prebuilt-bindings": "^1.0.3"
   },
   "scripts": {
-    "preinstall": "git submodule init & git submodule update",
     "install": "node ./prebuilt-bindings install",
     "prebuilt-bindings": "node ./prebuilt-bindings"
   }
